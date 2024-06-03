@@ -1,0 +1,15 @@
+models:
+  - name: q4
+    description: >
+      Answer to Q4 of take home test
+    meta:
+      owner: WinnieFang1997@gmail.com
+    columns:
+      - Year
+        description: Year of each entry.
+      - country_name
+        description: Name of country.
+      - vendor_name
+        description: Name of vendor.
+      - total_gmv
+        description: GMV of top two vendors for each country.
