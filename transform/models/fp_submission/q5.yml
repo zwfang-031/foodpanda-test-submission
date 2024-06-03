@@ -1,0 +1,13 @@
+models:
+  - name: q5
+    description: >
+      show how ref works, the outcome does not represent anything
+    meta:
+      owner: WinnieFang1997@gmail.com
+    columns:
+      - country_name
+        description: Name of country.
+      - vendor_name
+        description: Name of vendor.
+      - total_gmv
+        description: GMV of top 1 vendors for each country.
